@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sushil Yadav | Creative Developer & Designer</title>
+
+</head>
+
+<body>
+
+  <!-- Cursor Glow -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Nav -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">Sushil<span> Yadav</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Let's Talk</a>
+    <button class="menu-toggle" onclick="toggleMobileMenu()">☰</button>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-bg2"></div>
+    <div class="hero-content">
+      <div class="hero-badge"><span class="dot"></span> Available for freelance work</div>
+      <h1>I craft <span class="gradient">digital</span><br>experiences that<br><span class="typing"
+          id="heroTyping">inspire</span></h1>
+      <p>Full-stack developer & UI/UX designer based in San Francisco. I transform ideas into beautiful, functional
+        products that users love.</p>
+      <div class="hero-btns">
+        <a href="#portfolio" class="btn btn-primary">View My Work →</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="num" data-count="30">0</div>
+          <div class="label">Projects Completed</div>
+        </div>
+        <div class="stat-item">
+          <div class="num" data-count="20">0</div>
+          <div class="label">Happy Clients</div>
+        </div>
+        <div class="stat-item">
+          <div class="num" data-count="1">0</div>
+          <div class="label">Years Experience</div>
+        </div>
+        <div class="stat-item">
+          <div class="num" data-count="5">0</div>
+          <div class="label">Awards Won</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="reveal">
+    <div class="section-badge">✦ About Me</div>
+    <h2 class="section-title">Turning vision into<br>digital reality</h2>
+    <div class="about-grid">
+      <div class="about-img-wrap">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=700&fit=crop&crop=face"
+          alt="Alex Morgan" class="about-img">
+        <div class="about-img-badge">
+          <div class="num">1+</div>
+          <div class="text">Years of<br>Experience</div>
+        </div>
+      </div>
+      <div class="about-text">
+        <h3>Hi, I'm Sushil Yadav 👋</h3>
+        <p>I'm a passionate full-stack developer and designer who loves creating innovative digital solutions. With
+          expertise in modern web technologies and a keen eye for design, I build products that not only look great but
+          also deliver exceptional user experiences.</p>
+        <p>When I'm not coding, you'll find me exploring new design trends, contributing to open-source projects, or
+          sharing knowledge through tech blogs and mentorship.</p>
+        <div class="about-tags">
+          <span class="about-tag">🎨 UI/UX Design</span>
+          <span class="about-tag">💻 Full-Stack Dev</span>
+          <span class="about-tag">📱 Mobile Apps</span>
+          <span class="about-tag">🚀 Performance</span>
+          <span class="about-tag">☁️ Cloud Solutions</span>
+          <span class="about-tag">🤖 AI Integration</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="reveal">
+    <div class="section-badge">✦ My Skills</div>
+    <h2 class="section-title">Technologies I work with</h2>
+    <p class="section-sub">I stay current with the latest technologies to deliver cutting-edge solutions.</p>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">⚛️</div>
+        <div class="skill-name">React & Next.js</div>
+        <div class="skill-desc">Building modern, performant web applications with React ecosystem.</div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width:95%"></div>
+        </div>
+        <div class="skill-percent">95%</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🟢</div>
+        <div class="skill-name">Node.js & Express</div>
+        <div class="skill-desc">Scalable backend APIs and server-side applications.</div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width:90%"></div>
+        </div>
+        <div class="skill-percent">90%</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🎨</div>
+        <div class="skill-name">UI/UX Design</div>
+        <div class="skill-desc">Creating intuitive, beautiful interfaces users love.</div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width:92%"></div>
+        </div>
+        <div class="skill-percent">92%</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">📱</div>
+        <div class="skill-name">React Native</div>
+        <div class="skill-desc">Cross-platform mobile apps for iOS and Android.</div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width:85%"></div>
+        </div>
+        <div class="skill-percent">85%</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🐍</div>
+        <div class="skill-name">Python & Django</div>
+        <div class="skill-desc">Data-driven applications and machine learning integration.</div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width:88%"></div>
+        </div>
+        <div class="skill-percent">88%</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">☁️</div>
+        <div class="skill-name">AWS & Cloud</div>
+        <div class="skill-desc">Cloud architecture, deployment, and DevOps practices.</div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width:82%"></div>
+        </div>
+        <div class="skill-percent">82%</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="reveal">
+    <div class="section-badge">✦ Portfolio</div>
+    <h2 class="section-title">Featured projects</h2>
+    <p class="section-sub">A selection of my recent work across different industries.</p>
+    <div class="portfolio-filter">
+      <button class="filter-btn active" onclick="filterPortfolio('all',this)">All</button>
+      <button class="filter-btn" onclick="filterPortfolio('web',this)">Web Design</button>
+      <button class="filter-btn" onclick="filterPortfolio('app',this)">App Design</button>
+      <button class="filter-btn" onclick="filterPortfolio('brand',this)">Branding</button>
+      <button class="filter-btn" onclick="filterPortfolio('ui',this)">UI/UX</button>
+    </div>
+    <div class="portfolio-grid" id="portfolioGrid"></div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="reveal">
+    <div class="section-badge">✦ Services</div>
+    <h2 class="section-title">What I offer</h2>
+    <p class="section-sub">Comprehensive digital solutions tailored to your needs.</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">🎨</div>
+        <div class="service-name">UI/UX Design</div>
+        <div class="service-desc">User-centered design with modern aesthetics. From wireframes to polished prototypes.
+        </div>
+        <div class="service-price">From $2,500</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">💻</div>
+        <div class="service-name">Web Development</div>
+        <div class="service-desc">Full-stack web applications built with cutting-edge technologies.</div>
+        <div class="service-price">From $5,000</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📱</div>
+        <div class="service-name">Mobile Apps</div>
+        <div class="service-desc">Cross-platform mobile applications for iOS and Android.</div>
+        <div class="service-price">From $8,000</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🚀</div>
+        <div class="service-name">SEO & Performance</div>
+        <div class="service-desc">Optimize your site for search engines and blazing-fast performance.</div>
+        <div class="service-price">From $1,500</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🛒</div>
+        <div class="service-name">E-Commerce</div>
+        <div class="service-desc">Custom online stores with payment integration and inventory management.</div>
+        <div class="service-price">From $6,000</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🤖</div>
+        <div class="service-name">AI Integration</div>
+        <div class="service-desc">Integrate AI and machine learning into your products.</div>
+        <div class="service-price">From $4,000</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="reveal">
+    <div class="section-badge">✦ Testimonials</div>
+    <h2 class="section-title">What clients say</h2>
+    <p class="section-sub">Don't just take my word for it — hear from my clients.</p>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-text">"Alex transformed our vision into a stunning website that exceeded all
+          expectations. The attention to detail and technical expertise is remarkable."</div>
+        <div class="testimonial-author">
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face" alt=""
+            class="testimonial-avatar">
+          <div>
+            <div class="testimonial-name">Sarah Chen</div>
+            <div class="testimonial-role">CEO, TechStart Inc.</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-text">"Working with Alex was an absolute pleasure. They delivered our mobile app on time
+          and it received amazing user feedback. Highly recommend!"</div>
+        <div class="testimonial-author">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt=""
+            class="testimonial-avatar">
+          <div>
+            <div class="testimonial-name">Michael Ross</div>
+            <div class="testimonial-role">Founder, AppWorks</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <div class="testimonial-text">"The e-commerce platform Alex built increased our online sales by 300%. Their
+          understanding of both design and business is impressive."</div>
+        <div class="testimonial-author">
+          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" alt=""
+            class="testimonial-avatar">
+          <div>
+            <div class="testimonial-name">Emily Watson</div>
+            <div class="testimonial-role">Marketing Director, StyleCo</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="reveal">
+    <div class="section-badge">✦ Contact</div>
+    <h2 class="section-title">Let's work together</h2>
+    <p class="section-sub">Have a project in mind? I'd love to hear about it.</p>
+    <div class="contact-grid">
+      <div>
+        <div class="contact-info-card">
+          <div class="contact-icon">📧</div>
+          <div>
+            <div class="contact-label">Email</div>
+            <div class="contact-value">sushilyadavon@gmail.com</div>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="contact-icon">📱</div>
+          <div>
+            <div class="contact-label">Phone</div>
+            <div class="contact-value">+1 (555) 123-4567</div>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="contact-icon">📍</div>
+          <div>
+            <div class="contact-label">Location</div>
+            <div class="contact-value">Rajasthan, India</div>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="contact-icon">⏰</div>
+          <div>
+            <div class="contact-label">Availability</div>
+            <div class="contact-value">Mon - Fri, 9AM - 6PM</div>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="submitForm(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="you@example.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" placeholder="Project inquiry">
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea placeholder="Tell me about your project..."></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send Message →</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo" style="font-size:1.8rem;">Sushil<span> Yadav</span></div>
+        <p>Crafting digital experiences that inspire and delight. Let's build something amazing together.</p>
+        <div class="footer-socials">
+          <a href="#" class="footer-social">🐦</a>
+          <a href="#" class="footer-social">💼</a>
+          <a href="#" class="footer-social">📷</a>
+          <a href="#" class="footer-social">🐙</a>
+        </div>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">UI/UX Design</a></li>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">Mobile Apps</a></li>
+          <li><a href="#">E-Commerce</a></li>
+          <li><a href="#">Consulting</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>sushilyadavon@gmail.com</li>
+          <li>+1 (555) 123-4567</li>
+          <li>Rajasthan, India</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Sushil Yadav. All rights reserved. | Built with ❤️</div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
